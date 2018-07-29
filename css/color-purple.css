@@ -112,3 +112,10 @@ input:focus,
 .tg-fashion h2,
 .tg-delevrystock li span em,
 .tg-support .tg-clientserviceicon i{color: #f16745;}
+
+
+
+.tg-navigationarea{
+
+	background: linear-gradient(red, white);
+}
