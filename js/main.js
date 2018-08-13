@@ -69,6 +69,39 @@ jQuery(document).on('ready', function() {
 			1200: { items:6 },
 		}
 	});
+
+
+
+
+/*--------------------------------------
+			BEST BOOK SLIDER	in two column container changed by jalil			
+	--------------------------------------*/
+	var _tg_bestsellingbooksslidertwo = jQuery('#tg-bestsellingbooksslidertwo');
+	_tg_bestsellingbooksslidertwo.owlCarousel({
+		nav: true,
+		loop: true,
+		margin: 30,
+		dots: true,
+		navText: [
+					'<i class="icon-chevron-left"></i>',
+					'<i class="icon-chevron-right"></i>'
+				],
+		navClass: [
+					'owl-prev tg-btnround tg-btnprev',
+					'owl-next tg-btnround tg-btnnext'
+				],
+		responsive: {
+			0: { items:1 },
+			480: { items:2 },
+			600: { items:3 },
+			1000: { items:5 },
+			1200: { items:4 },
+		}
+	});
+
+
+
+
 	/*--------------------------------------
 			RELATED PRODUCT SLIDER			
 	--------------------------------------*/
