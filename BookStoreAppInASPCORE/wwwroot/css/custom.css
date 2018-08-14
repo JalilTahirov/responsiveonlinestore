@@ -1,0 +1,17 @@
+.tg-forlogoontop {
+	z-index: 2;
+	float: left;
+	padding: 23px 0;
+	position: relative;
+}
+
+.tg-headervtwo .tg-forlogoontop {
+    padding: 0 90px;
+}
+
+.tg-logo {
+    z-index: 2;
+    float: left;
+    padding: 0px 10px;
+    position: relative;
+}
